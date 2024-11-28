@@ -41,6 +41,7 @@ export default defineConfig({
       entry: 'electron-preload/preload.ts'
     }
     ]),
+    vueDevTools(),
     electronRenderer(),
     polyfillExports(),
     // monacoEditorPlugin({

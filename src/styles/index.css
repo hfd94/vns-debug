@@ -1,4 +1,17 @@
 /* @import "vfonts/IBMPlexMono.css"; */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+
+
+ 
+html {
+    font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei" sans-serif;
+    overflow: hidden;
+}
+body {
+    padding-left: 2px;
+}
+
+.tooltip .v-overlay__content {
+    padding: 2px 14px !important;
+    font-size: 12px !important;
+  }

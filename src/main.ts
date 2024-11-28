@@ -4,6 +4,7 @@ import App from './App.vue'
 // Composables
 import { createApp } from 'vue'
 import { registerStore } from '@/stores'
+import "./styles/index.css"
 
 const app = createApp(App)
 
