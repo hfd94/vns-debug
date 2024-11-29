@@ -8,5 +8,9 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    IconConnect: typeof import('./src/components/icons/icon-connect.vue')['default']
+    IconFolder: typeof import('./src/components/icons/icon-folder.vue')['default']
+    IconFolderOpen: typeof import('./src/components/icons/icon-folder-open.vue')['default']
+    IconRequest: typeof import('./src/components/icons/icon-request.vue')['default']
   }
 }

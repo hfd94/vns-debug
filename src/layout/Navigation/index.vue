@@ -1,10 +1,5 @@
 <template>
-  <v-navigation-drawer
-    color="grey-lighten-3"
-    rail
-    permanent
-    style="border-top-width: thin; left: 1px"
-  >
+  <v-navigation-drawer rail permanent style="border-top-width: thin; left: 1px">
     <v-tabs
       color="primary"
       direction="vertical"
@@ -16,7 +11,6 @@
         :text="v.name"
         key="i"
         :ripple="false"
-        title="123123"
         style="padding: 0px 18px; min-width: 48px; max-width: 55px"
       >
         <v-tooltip
